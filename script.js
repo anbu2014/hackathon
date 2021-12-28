@@ -79,17 +79,6 @@ let displayDetails =(json_arry)=>{
     
     }
 
-    function invalidFiled(){
-     var tablerow =`
-      <tr>
-    <td>1</td>
-    <td >Invalid search field</td>
-    <td>Invalid search field</td>
-    <td>Invalid search field
-    </td>
-  </tr>  `;
-  table_body.innerHTML=tablerow
-    }
 
 let search_txt_Box = document.getElementById("search_Box")
 let search = document.getElementById("search")
