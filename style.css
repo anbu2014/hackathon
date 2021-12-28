@@ -1,9 +1,19 @@
+
+/*
+img defines the width and height in the 
+tabel under coloum Click to view
+
+*/
 img{
     width: 30px;
     height:30px;
   }
-  body {font-family: Arial, Helvetica, sans-serif;}
+  
+/*
+modal div to display none
+z-index display the img front
 
+*/
 
 .modal {
   display: none; 
@@ -17,7 +27,10 @@ img{
   overflow: auto; 
  
 }
-
+/*
+modal-content 
+used to style the pop up div 
+*/
 
 .modal-content {
   background-color: rgb(208, 223, 223);
@@ -27,6 +40,11 @@ img{
   border: 1px solid #888;
   width: 80%;
 }
+/*
+span 
+symbol => X 
+
+*/
 #span{
   background-color: rgb(208, 223, 223);
   margin: auto;
@@ -37,20 +55,19 @@ img{
 }
 
 
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
+/*
+dispaly cursor on symbol =>X on hover and focus
 
+*/
 .close:hover,
 .close:focus {
-  color: #000;
-  text-decoration: none;
   cursor: pointer;
 }
 
+/*
+tabel properties
+
+*/
 #tabel{
 
     border: 1px solid black;
@@ -58,31 +75,64 @@ img{
     margin-left: auto;
   margin-right: auto;
 }
+/*
+form properties
+
+*/
 #form{
   padding: 100px 100px 0px 100px;
 }
+/*
+body backbround color
+
+*/
+
 body{
   background-color: rgb(96, 180, 180);
 }
+/*
+h1 properties 
+
+*/
 h1{
   text-align: center;
   padding: 30px 0px 0px 0px;
   font-family: cursive;
 }
+/*
+h6 properties 
+
+*/
+
 h6{
   text-align: center;
   padding: 30px 0px 0px 0px;
   font-family: cursive;
 }
+/*
+search box,search button,all_cat_list button  
+display in inline and align center
 
+*/
 #search_Box,#search,#all_cat_list{
   display: inline-block;
   text-align: center;
   
 }
+/*
+section 
+align to center
+
+*/
 section{
   text-align: center;
 }
+
+/*
+search_Box 
+prperties
+
+*/
 #search_Box{
   width: 50%;
   text-align: left;
